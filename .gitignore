@@ -1,0 +1,7 @@
+term_project_env/
+
+env
+backend/env
+backend/__pycache__
+.env
+.cpython-310.pyc

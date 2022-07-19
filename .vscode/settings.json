@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/neilxu/Documents/cs32/term-project-abao5-dgrossm5-nxu4-onaphade-sanand14-vpandiar/env/bin/python3.10",
+    "python.analysis.extraPaths": [
+        "./backend/data_extraction_and_analysis"
+    ]
+}

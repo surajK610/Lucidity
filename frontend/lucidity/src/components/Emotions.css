@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.emotions-page-container {
+  width: 60%;
+  padding: 0 20%;
+  height: 100vh;
+  background-color: #fbf2ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.emotions-text-container {
+  text-align: center;
+}
+
+.emotions__title {
+  font-size: 48px;
+}
+
+.emotions__subtitle {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.emotions-chart-container {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: aliceblue;
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.upload-page-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.upload-left {
+  height: 60vh;
+  padding: 15vh 0 25vh 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upload-left__title {
+  font-size: 96px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.upload-left__subtitle {
+  width: 70%;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.upload-left__upload > input[type='file']::file-selector-button {
+  display: none;
+}
+
+.upload-left__upload > input[type='file'] {
+  cursor: pointer;
+}
+
+.upload-right {
+  height: 80vh;
+  width: 80%;
+  padding: 10vh 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #ecf6ff;
+}
+
+.upload-right__title {
+  font-size: 64px;
+}
+
+.upload-right__subtitle {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.upload-left__upload {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  height: 72px;
+  margin: 20px auto;
+  color: #fff;
+  background-color: #9ccafa;
+  cursor: pointer;
+  font-size: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.upload-right__btn {
+  width: 100%;
+  display: relative;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  height: 72px;
+  margin: 20px auto;
+  color: #fff;
+  background-color: #9ccafa;
+  cursor: pointer;
+  font-size: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.upload-right__checkbox-container {
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  align-items: flex-start;
+}
+
+.upload-right__checkbox-container > div {
+  margin: 10px 0;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox-item > * {
+  cursor: pointer;
+}
+
+.checkbox-item > input[type='checkbox'] {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  margin: 0 10px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.checkbox-item > label {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

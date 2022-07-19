@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.container-celeb {
+  width: 60%;
+  padding: 0 20%;
+  height: 100vh;
+  background-color: #E0EDFF;
+  font-family: Roboto;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-celeb > * {
+  margin: 10px 0;
+}
+
+.celebrity_comp_description {
+  font-size: 20px;
+  padding: 10px;
+}

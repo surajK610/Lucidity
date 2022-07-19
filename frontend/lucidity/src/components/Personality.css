@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color: rgb(255, 221, 230);
+}
+
+.personalityDiv {
+  text-align: left;
+  width: 70vw;
+  margin: auto;
+}
+
+.instructions {
+    font-size: 14pt;
+}
+
+.userPers {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.persTitleDiv {
+  width: 70vw;
+  margin: auto;
+  padding: 10px;
+}
+
+.persH3 {
+  color: #333333;
+  /* font-weight: 900; */
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.persH2 {
+  color: #333333;
+  font-weight: 900;
+  font-size: 60px;
+  font-weight: 300;
+  /* line-height: 0.5; */
+  margin-top: 0;
+}
+
+.row {
+  /* padding-left: 10%; */
+  /* padding-right: 10%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  /* float: left; */
+  width: 20%;
+  background: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  height: 320px;
+  /* text-align: left; */
+}

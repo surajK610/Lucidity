@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.container-wordcloud {
+  width: 60%;
+  padding: 0% 20%;
+  height: 100vh;
+  background-color: #f2ffec;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-wordcloud > * {
+  margin: 10px 2px;
+}
+
+.cloud_description {
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+.container-resizable:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
